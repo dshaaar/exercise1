@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> exercise 1 </title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+    * {
+        box-sizing: border-box;
+        border: 1px solid black;
+    }
+    #name {
+        background-color: rgb(165, 98, 135);
+    }
+    h2 {
+        float: right;
+    }
+    @media(min-width: 992px) 
+    {
+        p {
+            background-color: aqua;
+        }
+    }
+    
+    @media(min-width: 768px) and (max-width: 991px) 
+    {
+        p { 
+            background-color:blueviolet; 
+        }
+    }
+    @media(max-width: 767px) 
+    {
+        p { 
+            background-color:rgb(219, 80, 166); 
+        }
+    }
 
-You can use the [editor on GitHub](https://github.com/dshaaar/exercise1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dshaaar/exercise1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</style>
+</head>
+<body>
+    <div id="name">
+        <div>
+           <h1 style="text-align: center;"> Our menu </h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-xs-6"> <h2> Chicken </h2> <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo vitae culpa nesciunt sed, quae laborum voluptatibus quis odio unde officiis beatae recusandae in repudiandae officia delectus exercitationem incidunt? Ad, in.</p></div>
+            <div class="col-lg-4 col-md-6 col-xs-6"> <h2> Beef </h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores suscipit saepe laboriosam quo dolorum nesciunt fuga soluta fugiat impedit similique, consectetur labore tempora, enim in repudiandae laudantium nostrum deleniti ex.</p></div>
+            <div class="col-lg-4 col-md-6 col-xs-6"> <h2> Sushi </h2> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam velit corrupti, iusto sit esse nulla magnam consectetur excepturi laborum sint, odio aliquid necessitatibus eaque enim a hic fuga est placeat? </p></div>
+        </div>
+    </div>
+        
+</body> 
+</html>
